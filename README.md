@@ -1,42 +1,116 @@
-# 🧠 Media Spend Optimization Project
+<p align="center">
+  <img src="images/dashboard_preview.png" width="80%" alt="Dashboard Preview">
+</p>
 
-## 📌 Project Overview
-This project simulates the role of a Data/BI Analyst at a digital media agency. The goal is to analyze advertising performance data across multiple channels and determine how to allocate budget more effectively to maximize Return on Ad Spend (ROAS) and overall campaign efficiency.
+# 📊 Media Campaign Optimization Project
 
-It reflects real-world business needs in data-driven marketing and business intelligence environments, such as AI Digital, by focusing on:
-- Multi-platform campaign data analysis
-- KPI reporting (Spend, Clicks, Impressions, Conversions, ROAS, CTR)
-- Dashboard creation using Looker Studio (BlueKerry)
-- Data cleaning, transformation, and reporting workflows
+A complete data analytics portfolio project simulating a BI/Data Analyst role at a digital media agency. This project takes raw ad campaign data across multiple platforms and transforms it into actionable insights and an interactive dashboard.
 
 ---
 
-## 🎯 Objective
-To identify which advertising channels and campaign strategies drive the most efficient outcomes and to recommend a budget allocation strategy based on performance trends. The final deliverables include:
-- Cleaned and structured dataset
-- Exploratory and comparative analysis
-- ROAS-focused media spend recommendations
-- A BI dashboard built in Looker Studio
+## 📁 Project Overview
+
+This project simulates key responsibilities from a business intelligence role at a company like AI Digital. It includes:
+
+- Data cleaning and transformation
+- Exploratory data analysis
+- KPI engineering (ROAS, CPA, CTR)
+- Dashboard development with Looker Studio
+- Strategic recommendations for optimizing media spend
+
+---
+
+## 🎯 Objectives
+
+- Identify top-performing marketing channels and campaigns
+- Build a self-service dashboard with filters and time series analysis
+- Apply Python and SQL-style logic for wrangling and analyzing ad data
+- Communicate insights visually and in business context
+
+---
+
+## 📦 Dataset
+
+Simulated campaign-level media spend data across 5 platforms:
+- Meta Ads
+- TikTok
+- YouTube
+- LinkedIn
+- Google Display
+
+Each record includes:
+- Campaign info (platform, objective, name)
+- Performance metrics (spend, revenue, conversions, clicks, impressions)
+- Derived metrics (ROAS, CPA, CTR)
+
+**File Locations:**
+- `data/media_campaign_data.csv`
+- `data/clean/media_campaign_data_clean.csv`
+
+---
+
+## 🔍 Key Questions
+
+- Which channels generate the highest ROAS?
+- Which campaigns are cost-effective or underperforming?
+- Is CTR a reliable predictor of revenue efficiency?
+- Which platforms offer consistent performance across campaigns?
 
 ---
 
 ## 🔧 Tools & Technologies
-- **Python** (Pandas, Matplotlib, Seaborn, Plotly)
-- **SQL** (via Pandas or SQLite for querying)
-- **Google Sheets** (for dashboard export)
-- **Looker Studio** (for interactive visualization)
-- **Git & GitHub** (version control and collaboration)
+
+- Python (Pandas, NumPy)
+- Jupyter Notebook
+- Matplotlib & Seaborn
+- Looker Studio
+- Excel/CSV
+- Git & GitHub
 
 ---
 
-## 📊 Key Performance Indicators (KPIs)
-- Total Spend
-- Impressions
-- Clicks
-- Click-Through Rate (CTR)
-- Cost Per Click (CPC)
-- Conversions
-- Cost Per Acquisition (CPA)
-- Return on Ad Spend (ROAS)
+## 📈 Key Insights
 
+- **High ROAS Platforms**: Meta Ads and TikTok outperformed others in return on ad spend.
+- **Efficient Campaigns**: "Creator Collab" and "Lookalike Expansion" delivered strong results.
+- **CTR ≠ ROI**: Correlation between CTR and ROAS is moderate (0.57), not strong enough for sole optimization.
+- **Stable Performers**: YouTube and LinkedIn are steady, making them safer for baseline media allocation.
 
+---
+
+## 📊 Dashboard Preview
+
+Built with Looker Studio:
+
+- KPI Summary Row
+- Channel Comparison Bar Charts
+- Campaign-Level Performance Table
+- Time Series of Spend, Revenue, ROAS
+- CTR vs ROAS Scatter Plot
+- Interactive Filters for Channel, Campaign, and Date
+
+**Dashboard Export:**
+- `outputs/lookerstudio_dashboard.pdf`
+
+**Screenshots:**  
+See `images/` folder for previews
+
+---
+
+## 📓 Notebook Report
+
+Full step-by-step analysis in Jupyter Notebook:
+
+- Data loading & inspection
+- Cleaning & wrangling
+- KPI calculation
+- Exploratory data analysis
+- Correlation analysis
+- Strategic recommendation
+
+**Notebook Export:**  
+- `notebooks/media_campaign_analysis.ipynb`  
+- `outputs/media_campaign_analysis_report.pdf`
+
+---
+Created by **Giorgi Dzebisashvili**

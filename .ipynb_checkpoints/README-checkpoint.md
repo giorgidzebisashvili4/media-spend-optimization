@@ -2,13 +2,13 @@
   <img src="images/dashboard_preview.png" width="80%" alt="Dashboard Preview">
 </p>
 
-# 📊 Media Campaign Optimization Project
+# Media Campaign Optimization Project
 
 A complete data analytics portfolio project simulating a BI/Data Analyst role at a digital media agency. This project takes raw ad campaign data across multiple platforms and transforms it into actionable insights and an interactive dashboard.
 
 ---
 
-## 📁 Project Overview
+## Project Overview
 
 This project simulates key responsibilities from a business intelligence role at a company like AI Digital. It includes:
 
@@ -20,7 +20,7 @@ This project simulates key responsibilities from a business intelligence role at
 
 ---
 
-## 🎯 Objectives
+## Objectives
 
 - Identify top-performing marketing channels and campaigns
 - Build a self-service dashboard with filters and time series analysis
@@ -29,7 +29,7 @@ This project simulates key responsibilities from a business intelligence role at
 
 ---
 
-## 📦 Dataset
+## Dataset
 
 Simulated campaign-level media spend data across 5 platforms:
 - Meta Ads
@@ -49,7 +49,7 @@ Each record includes:
 
 ---
 
-## 🔍 Key Questions
+## Key Questions
 
 - Which channels generate the highest ROAS?
 - Which campaigns are cost-effective or underperforming?
@@ -58,7 +58,7 @@ Each record includes:
 
 ---
 
-## 🔧 Tools & Technologies
+## Tools & Technologies
 
 - Python (Pandas, NumPy)
 - Jupyter Notebook
@@ -69,7 +69,7 @@ Each record includes:
 
 ---
 
-## 📈 Key Insights
+## Key Insights
 
 - **High ROAS Platforms**: Meta Ads and TikTok outperformed others in return on ad spend.
 - **Efficient Campaigns**: "Creator Collab" and "Lookalike Expansion" delivered strong results.
@@ -78,7 +78,7 @@ Each record includes:
 
 ---
 
-## 📊 Dashboard Preview
+## Dashboard Preview
 
 Built with Looker Studio:
 
@@ -97,7 +97,7 @@ See `images/` folder for previews
 
 ---
 
-## 📓 Notebook Report
+## Notebook Report
 
 Full step-by-step analysis in Jupyter Notebook:
 
